@@ -1,0 +1,30 @@
+footer{
+    background-color: #499c70;
+    padding: 0;
+    margin-top: 1em;
+}
+
+.holder{
+    display: grid;
+    grid-template-areas: 
+    "contact logof";
+}
+
+.contact{
+    grid-area: contact;
+    text-align: justify;
+    text-indent: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logof{
+    grid-area: logof;
+    left: inherit;
+}
+
+@media(min-width: 1024px){
+    .logof{
+        padding: 0.6rem;
+        margin-left: 25rem;
+    }
+}

@@ -1,0 +1,22 @@
+header{
+    background-color: #499c70;
+    padding: .4rem;
+    margin-top: 0;
+}
+.contenedor{
+    display: grid;
+    grid-template-areas: 1fr 3fr;
+    grid-template-areas: 
+    "logo";
+}
+.logo{
+    grid-area: logo;
+    margin-right: 40rem;
+}
+
+
+@media(min-width: 1024px){
+    .logo{
+        margin-right: 55rem;
+    }
+}
